@@ -1,0 +1,75 @@
+.login {
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    // 头部
+    .login_head {
+      height: 50px;
+    }
+    // 主要内容
+    .login_body {
+      flex: 1;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  
+      .login_body_head {
+        height: 20%;
+        text-align: center;
+        .icon {
+          margin: 0 auto;
+          width: 60px;
+          height: 60px;
+          background: skyblue;
+          border-radius: 50%;
+          margin-bottom: 26px;
+        }
+        .phone {
+          font-size: 30px;
+          font-weight: 700;
+          line-height: 30px;
+        }
+        .tips {
+          font-size: 14px;
+          line-height: 20px;
+          color: #353131;
+        }
+      }
+      .login_body_btn {
+        .btn {
+          border-radius: 10px;
+          margin: 10px 0;
+          font-weight: 600;
+          color: #ffffff;
+        }
+        .btn1 {
+          color: #756d6d;
+          background-color: rgba(1, 1, 1, 0.1);
+        }
+      }
+      .login_body_agreement {
+        margin-top: 20px;
+        font-size: 14px;
+        display: flex;
+        align-items: baseline;
+        .checked {
+          width: 25px;
+        }
+        span {
+          flex: 1;
+          display: block;
+          letter-spacing: 1px;
+        }
+        .terms {
+          color: #3399ff;
+          line-height: 16px;
+        }
+      }
+    }
+    // 底部
+    .login_footer {
+      height: 100px;
+    }
+  }
